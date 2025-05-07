@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1f24;
+    color: #e0e0e0;
+}
+
+/* Sidebar Navigation */
+.navbar {
+    background-color: #0d1b2a;
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.navbar a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin: 20px 0;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #1f2d3d;
+}
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Main Content */
+.main {
+    margin-left: 250px;
+    padding: 40px;
+}
+
+/* Section Headers */
+h1, h2 {
+    color: #f0f0f0;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0d1b2a;
+    color: #aaa;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,28 @@
+body {
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #0d1b2a;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.main {
+    padding: 40px;
+}
+
+img {
+    border: 2px solid #fff;
+    margin-top: 20px;
+}
