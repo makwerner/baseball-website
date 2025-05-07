@@ -1,0 +1,175 @@
+/* General Body and Layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #1f1f1f;
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-nav .nav-item {
+    margin: 15px 0;
+}
+
+.navbar-nav .nav-link {
+    color: #bbb !important;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #333;
+    color: #fff !important;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+/* Offset for content */
+body {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Home Page */
+.home-section {
+    background: url('baseball-field.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.home-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* About Page */
+.about-section {
+    background-color: #1e1e1e;
+    padding: 60px 20px;
+}
+
+.about-section h3,
+.resume-section h3 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ffcc00;
+}
+
+.about-section p,
+.resume-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.about-section h4 {
+    margin-top: 40px;
+    font-size: 1.8em;
+    color: #f5a623;
+}
+
+.about-section ul,
+.resume-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-section li,
+.resume-section li {
+    margin: 10px 0;
+}
+
+/* Resume Page */
+.resume-section {
+    background-color: #1a1a1a;
+    padding: 60px 20px;
+}
+
+.resume-section .resume-item {
+    margin-bottom: 40px;
+}
+
+.resume-section .resume-item h4 {
+    font-size: 1.6em;
+    color: #ffa500;
+}
+
+.resume-section .resume-item span {
+    display: block;
+    font-size: 0.95em;
+    color: #ccc;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    body {
+        margin-left: 0;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0 15px;
+    }
+}
