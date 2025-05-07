@@ -3,57 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>From-Scratch Page</title>
-  <link rel="stylesheet" href="styles/fromscratch.css">
+  <title>From Scratch</title>
+  <link rel="stylesheet" href="from-scratch.css" />
 </head>
 <body>
+  <h1 id="top">From Scratch Page</h1>
 
-  <header>
-    <h1>My Custom HTML + CSS Page</h1>
-    <nav>
-      <a href="#video-section">Jump to Video</a> |
-      <a href="#image-section">Jump to Image</a>
-    </nav>
-  </header>
+  <h2>Lists</h2>
+  <ol>
+    <li>Languages
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </li>
+    <li>Tools
+      <ul>
+        <li>VSCode</li>
+        <li>GitHub</li>
+      </ul>
+    </li>
+  </ol>
 
-  <section>
-    <h2>Ordered and Unordered List</h2>
-    <ol>
-      <li>My Daily Routine
-        <ul>
-          <li>Wake up</li>
-          <li>Exercise</li>
-          <li>Eat breakfast</li>
-        </ul>
-      </li>
-      <li>Work Schedule
-        <ul>
-          <li>Check emails</li>
-          <li>Attend meetings</li>
-          <li>Write reports</li>
-        </ul>
-      </li>
-    </ol>
-  </section>
+  <h2>Image</h2>
+  <img src="your-image.jpg" alt="Example Image" width="400"/>
 
-  <section id="image-section">
-    <h2>A Cool Image</h2>
-    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach Sunset" width="500" />
-    <p>This is an image from Unsplash, not Bootstrap. You can replace it with one of your own later.</p>
-  </section>
+  <h2>Embedded YouTube Video</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+    title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
-  <section id="video-section">
-    <h2>Embedded YouTube Video</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ysz5S6PUM-U" 
-      title="YouTube video player" frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      allowfullscreen>
-    </iframe>
-  </section>
-
-  <footer>
-    <p>End of page. <a href="#top">Back to top</a></p>
-  </footer>
-
+  <h2>Anchor</h2>
+  <a href="#top">Back to Top</a>
 </body>
 </html>
